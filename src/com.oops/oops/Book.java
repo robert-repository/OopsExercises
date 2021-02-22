@@ -8,7 +8,16 @@ public class Book {
     }
 
     public void setNoOfCopies(int noOfCopies) {
-        this.noOfCopies = noOfCopies;
+        if (noOfCopies > 0)
+            this.noOfCopies = noOfCopies;
+    }
+
+    public void increaseNumberOfCopies(int howMany) {
+        setNoOfCopies(this.noOfCopies + howMany);
+    }
+
+    public void decreaseNumberOfCopies(int howMany) {
+        setNoOfCopies(this.noOfCopies - howMany);
     }
 
     void read() {
