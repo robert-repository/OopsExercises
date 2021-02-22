@@ -13,9 +13,9 @@ public class BookRunner {
 		effectiveJava.read();
 		cleanCode.read();
 
-		artOfComputerProgramming.noOfCopies = 300;
-		effectiveJava.noOfCopies = 500;
-		cleanCode.noOfCopies = 1200;
+		artOfComputerProgramming.setNoOfCopies(1400);
+		effectiveJava.setNoOfCopies(1500);
+		cleanCode.setNoOfCopies(800);
 
 	}
 

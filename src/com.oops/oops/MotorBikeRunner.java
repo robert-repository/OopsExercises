@@ -2,20 +2,20 @@ package com.oops.oops;
 
 public class MotorBikeRunner {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		MotorBike ducati = new MotorBike();
-		MotorBike honda = new MotorBike();
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        MotorBike ducati = new MotorBike();
+        MotorBike honda = new MotorBike();
 
-		ducati.start();
-		honda.start();
+        ducati.start();
+        honda.start();
 
-		ducati.speed = 80;
-		ducati.speed = 60;
+        ducati.setSpeed(80);
+        ducati.setSpeed(60);
 
-		honda.speed = 40;
-		honda.speed = 20;
+        honda.setSpeed(40);
+        honda.setSpeed(20);
 
-	}
+    }
 
 }

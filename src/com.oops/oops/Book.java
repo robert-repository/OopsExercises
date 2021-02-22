@@ -1,10 +1,14 @@
 package com.oops.oops;
 
 public class Book {
-	int noOfCopies;
+    private int noOfCopies;
 
-	void read() {
-		System.out.println("reading");
-	}
+    void setNoOfCopies(int noOfCopies) {
+        this.noOfCopies = noOfCopies;
+    }
+
+    void read() {
+        System.out.println("reading");
+    }
 
 }
