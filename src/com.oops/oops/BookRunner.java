@@ -14,8 +14,11 @@ public class BookRunner {
 		cleanCode.read();
 
 		artOfComputerProgramming.setNoOfCopies(1400);
+		System.out.println(artOfComputerProgramming.getNoOfCopies());
 		effectiveJava.setNoOfCopies(1500);
+		System.out.println(effectiveJava.getNoOfCopies());
 		cleanCode.setNoOfCopies(800);
+		System.out.println(cleanCode.getNoOfCopies());
 
 	}
 
